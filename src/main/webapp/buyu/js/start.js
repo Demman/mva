@@ -587,7 +587,7 @@
     function initCj(num){
 
 
-        centerObj.num=localStorage.num?localStorage.num:1000;
+        centerObj.num=localStorage.num?localStorage.num:1000000;
         centerObj.cj=num;
         if(!cjData[centerObj.cj])return console.log("error:loaded error !!");
         centerObj.start="loadeding";
@@ -798,7 +798,7 @@
 
         });
 
-        METHOD.defineEx(centerObj,"num",localStorage.num?localStorage.num:1000,function(){
+        METHOD.defineEx(centerObj,"num",localStorage.num?localStorage.num:1000000,function(){
             localStorage.num=centerObj.num;
         });
 

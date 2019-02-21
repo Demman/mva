@@ -8,6 +8,7 @@ Released under the MIT license
 
 <!DOCTYPE html>
 <html><head>
+  <meta charset="UTF-8">
   <title>WebGL Water</title>
   <script src="OES_texture_float_linear-polyfill.js"></script>
   <script src="lightgl.js"></script>
@@ -24,40 +25,31 @@ Released under the MIT license
     h1 { font: bold italic 30px/30px Georgia; text-align: center; }
     h2 { font: bold italic 17px/17px Georgia; padding-top: 10px; }
     small { display: block; font-size: 11px; line-height: 15px; }
-    canvas { position: absolute; top: 100px; left: 0; }
+    canvas { position: absolute; top: 60px; left: 100px; }
     #help { position: absolute; top: 100px; right: 0; bottom: 0; width: 280px; padding-right: 20px; overflow: auto; }
-    #loading { position: absolute; left: 0; top: 50%; right: 300px; text-align: center; margin-top: -8px; }
+    #loading { position: absolute; left: 0; top:0; right: 0px; text-align: center; margin-top: -8px; }
   </style>
 </head><body>
 <div style="text-align:center;clear:both">
 <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
 <script src="/follow.js" type="text/javascript"></script>
 </div>
+<div >
+  <h1>Welcom Water！</h1>
+  <p># <a href="/feiji/index.html">飞机大战</a></p>
+  <p># <a href="/wuziqi/index.html">五子棋</a></p>
+  <p># <a href="/buyu/index.html">捕鱼</a></p>
+  <p># <a href="/nucel/index02.html">粒子</a></p>
+  <ul>
+
+
+  </ul>
+
+
+
+</div>
   <div id="loading">Loading...</div>
-  <div id="help">
-    <h1>WebGL Water</h1>
-    <p># <a href="/maven/feiji/index.html">飞机大战</a></p>
-    <p>This demo requires a decent graphics card and up-to-date drivers. If you can't run the demo, you can still <a href="http://youtube.com/watch?v=R0O_9bp3EKQ">see it on YouTube</a>.</p>
-    <h2>Interactions:</h2>
-    <ul>
-      <li>Draw on the water to make ripples</li>
-      <li>Drag the background to rotate the camera</li>
-      <li>Press SPACEBAR to pause and unpause</li>
-      <li>Drag the sphere to move it around</li>
-      <li>Press the L key to set the light direction</li>
-      <li>Press the G key to toggle gravity</li>
-    </ul>
-    <h2>Features:</h2>
-    <ul>
-      <li>Raytraced reflections and refractions</li>
-      <li>Analytic ambient occlusion</li>
-      <li>Heightfield water simulation *</li>
-      <li>Soft shadows</li>
-      <li>Caustics **</li>
-    </ul>
-    <p><small>* requires the OES_texture_float extension<br>** requires the OES_standard_derivatives extension</small></p>
-    <p><small>Tile texture from <a href="http://www.flickr.com/photos/zooboing/3682834083/">zooboing</a> on Flickr</small></p>
-  </div>
+
   <img id="tiles" src="tiles.jpg">
   <img id="xneg" src="xneg.jpg">
   <img id="xpos" src="xpos.jpg">
