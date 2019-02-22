@@ -40,7 +40,7 @@ Released under the MIT license
   <p># <a href="/feiji/index.html">飞机大战</a></p>
   <p># <a href="/wuziqi/index.html">五子棋</a></p>
   <p># <a href="/buyu/index.html">捕鱼</a></p>
-  <p># <a href="/nucel/index02.html">粒子</a></p>
+  <p># <a href="/nucel/index02.html">粒子爆炸</a></p>
   <ul>
 
 
